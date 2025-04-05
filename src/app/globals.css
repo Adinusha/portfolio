@@ -11,9 +11,9 @@
   --color-base-300: oklch(92% 0.013 255.508);
   --color-base-content: #000000;
   --color-primary: #745386;
-  --color-primary-content: oklch(28% 0.091 267.935);
+  --color-primary-content: #D00000;
   --color-secondary: oklch(75% 0.183 55.934);
-  --color-secondary-content: oklch(26% 0.079 36.259);
+  --color-secondary-content: #F5F5F5;
   --color-accent: #5F497F;
   --color-accent-content: oklch(26% 0.065 152.934);
   --color-neutral: oklch(44% 0.043 257.281);
@@ -44,8 +44,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-main: var(--font-judson);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,9 +70,9 @@ body {
   --color-base-300: oklch(92% 0.013 255.508);
   --color-base-content: #000000;
   --color-primary: #745386;
-  --color-primary-content: oklch(28% 0.091 267.935);
+  --color-primary-content: #D00000;
   --color-secondary: oklch(75% 0.183 55.934);
-  --color-secondary-content: oklch(26% 0.079 36.259);
+  --color-secondary-content: #F5F5F5;
   --color-accent: #5F497F;
   --color-accent-content: oklch(26% 0.065 152.934);
   --color-neutral: oklch(44% 0.043 257.281);
