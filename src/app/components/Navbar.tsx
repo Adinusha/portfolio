@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <div className="navbar sticky top-0 z-50 -mt-12 bg-[#FDF1DD] border-b-[1px] md:border-b-2 shadow-none text-primary flex justify-between items-center px-4">
-      <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+      <div className=" w-10 h-10 rounded-full bg-primary flex items-center justify-center">
         <span className="text-base-100 justify-center items-center text-xl font-serif">
           A
         </span>
